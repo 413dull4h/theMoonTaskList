@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamun AbDullah</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header class="tasks-header">
+        <div class="moon-container">
+            <div class="crescent-moon">
+                <div class="star star1"></div>
+                <div class="star star2"></div>
+                <div class="star star3"></div>
+            </div>
+        </div>
+        <h1>Todo List</h1>
+    </header>
+
+    <main>
+        <section class="add-task">
+            <form>
+                <h2>New task</h2>
+                <input type="text" placeholder="Task name...">
+                <button type="submit" class="add_button">+ Add</button>
+            </form>
+        </section>
+
+        <section class="tasks">
+            <div class="backlog-column">
+                <div class="task_type">Backlog</div>
+                <ul class="task_list">
+                    <li>Fix the motorcycle engine</li>
+                    <li>Chop firewood for the winter</li>
+                    <li>Tune up the old pickup truck</li>
+                </ul>
+            </div>
+
+            <div class="processing-column">
+                <div class="task_type">Processing</div>
+                <ul class="task_list">
+                    <li>Grill a massive steak dinner</li>
+                    <li>Build a custom workbench</li>
+                    <li>Train for the arm wrestling match</li>
+                </ul>
+            </div>
+
+            <div class="ready-column">
+                <div class="task_type">Done</div>
+                <ul class="task_list">
+                    <li>Watch the championship boxing fight</li>
+                    <li>Sharpen all the hunting knives</li>
+                </ul>
+            </div>
+
+            <div class="basket-column">
+                <div class="task_type">Basket</div>
+                <ul class="task_list">
+                    <li>Plan the fishing trip</li>
+                </ul>
+                <button class="clear_button">× Clear List</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
