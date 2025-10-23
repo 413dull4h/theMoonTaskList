@@ -27,4 +27,4 @@ export default class TaskAdd extends AbstractComponent {
     evt.preventDefault();
     this.#handleClick();
   };
-}
+}//things make have some issues
